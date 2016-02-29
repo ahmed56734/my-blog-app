@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+	<div class="col-sm-6 col-sm-push-3">
+		<h1>MyBlog APP</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-4 col-sm-push-4">
+<form action="" method="post">
+    {{form.hidden_tag()}}
+    <fieldset>
+        <div class="form-group">
+            {{form.username(class="form-control",autofocus="true", autocomplete="off", placeholder="Username", required="True")}}
+        </div>
+        
+            <ul class="errors">
+                {% for error in form.username.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+
+        
+        <div class="form-group">
+            {{form.password(class="form-control", placeholder="Password", required="True")}}
+            <ul class="errors">
+                {% for error in form.password.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="form-group">
+            {{form.password2(class="form-control", placeholder="Confirm password", required="True")}}
+            <ul class="errors">
+                {% for error in form.password2.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+            
+        <div class="form-group">
+            <button class="btn btn-default" type="submit">
+                Sign Up
+            </button>
+        </div>
+    </fieldset>
+</form>
+<div>
+    or <a href="{{url_for('login')}}">log in</a> for an account
+</div>
+</div>
+</div>
+
+
+{% endblock %}

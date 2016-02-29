@@ -1,0 +1,63 @@
+#message li{
+    background: #FFD6A3;
+    color: #000;
+    text-align: center;
+    list-style: none;
+}
+
+#message{
+ margin-top: 20px;
+}
+
+.posts{
+	margin-top: 20px;
+	list-style: none;
+}
+
+.post{
+	margin-top: 20px;
+}
+
+#date{
+	text-align: right;
+}
+
+#nothing{
+	line-height: 300px;
+	text-align: center;
+}
+
+.errors{
+    color: red;
+}
+
+form{
+	margin-top: 25px;
+}
+h1 {
+	text-align: center;
+    margin: 0;
+    margin-top: 30px;
+
+    font: bold 80px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+    -webkit-transition: .4s all linear;
+
+    background-color: #11A9E2;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0d86b3), to(#11a9e2));
+    background-image: -moz-linear-gradient(#0d86b3, #11a9e2);
+    background-repeat: no-repeat;
+    border-radius: 10px
+}
+
+#content{
+    height: 250px;
+}
+
+#newpost{
+     text-shadow: 0px 1px 1px #4d4d4d;
+     color: #222;
+     font: 80px 'LeagueGothicRegular'; 
+     font-size: 60px;
+}
