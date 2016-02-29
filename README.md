@@ -25,6 +25,8 @@ pip install flask-login
 
 pip install flask-script
 
+python manage.py runserver
+
 open the browser and goto lacalhost:5000/
 
-linux and mac users are supposed to be able to deal with this on therir own :3 
+linux and mac users are supposed to be able to deal with this on their own :3 
