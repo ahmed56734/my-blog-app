@@ -9,9 +9,7 @@ pip install virtualenvwrapper-win
 
 mkvirtualenv project
 
-mkdir project
-
-cd project
+cd my-blog-app-master
 
 setprojectdir .
 
