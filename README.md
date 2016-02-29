@@ -9,7 +9,7 @@ pip install virtualenvwrapper-win
 
 mkvirtualenv project
 
-cd my-blog-app-master
+cd "THE-PATH-TO-THE-DOWNLOADED-PROJECT"\my-blog-app-master
 
 setprojectdir .
 
