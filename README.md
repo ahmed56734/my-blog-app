@@ -1,7 +1,7 @@
 # how to run project on localhost for windows users
 make sure python is installed from www.python.org/ pip package manager should be installed by default
 
-#open the cmd and run the following commands
+#open the cmd and run the following commands to setup your virtual environment
 
 pip install virtualenv
 
